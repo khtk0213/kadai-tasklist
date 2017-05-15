@@ -24,7 +24,7 @@ class TasksController < ApplicationController
 end
 
   def edit
-    @message = Task.find(params[:id])  
+    @task = Task.find(params[:id])  
   end
 
   def update
